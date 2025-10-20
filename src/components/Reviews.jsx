@@ -1,4 +1,4 @@
-import GalleryPreview from "./galleryPreview"
+import GalleryPreview from "./GalleryPreview"
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { reviewsUrl } from "../utils/lib";
 import { reviews } from "../utils/lib";
