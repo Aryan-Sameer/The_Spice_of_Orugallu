@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { reserveTableURl } from "../utils/lib";
+import AnimatedContent from '../utils/AnimatedContent.jsx';
 
 const Landing = () => {
     return (
@@ -14,9 +15,22 @@ const Landing = () => {
             <div className="hero-overlay"></div>
             <div className="hero-content text-neutral-content text-center w-full">
                 <div className="font-serif">
-                    <h1 className="mb-5 max-md:text-4xl max-lg:text-6xl text-8xl">
-                        Flavours Inspired By <br />Authentic Telugu Dishes
-                    </h1>
+                    <AnimatedContent
+                        distance={30}
+                        direction="vertical"
+                        reverse={false}
+                        duration={1.1}
+                        ease="power3.out"
+                        initialOpacity={0.6}
+                        animateOpacity
+                        scale={1.0}
+                        threshold={0.2}
+                        delay={0.3}
+                    >
+                        <h1 className="mb-5 max-md:text-4xl max-lg:text-6xl text-8xl">
+                            Flavours Inspired By <br />Authentic Telugu Dishes
+                        </h1>
+                    </AnimatedContent>
                     <p className="mb-5 text-xl font-sans">
                         Restaurant • Catering • Takeaway
                     </p>

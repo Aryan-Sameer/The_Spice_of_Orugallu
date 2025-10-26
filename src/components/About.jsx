@@ -1,5 +1,6 @@
 import { FaStar } from "react-icons/fa";
 import { FaStarHalf } from "react-icons/fa6";
+import AnimatedContent from '../utils/AnimatedContent.jsx';
 
 const About = () => {
   return (
@@ -34,37 +35,50 @@ const About = () => {
           </div>
         </div>
 
-        <div
-          className="relative"
-          style={{
-            background: "url('./background/pattern2.png')",
-          }}>
-          <img
-            src="./about/about_us_1.jpg"
-            className="rounded-lg p-8"
-            alt="about us"
-          />
-          <img
-            src="./about/about_us_4.png"
-            className="rounded-lg absolute w-1/3 bottom-[-8%] left-[-4%] shadow-md brightness-[1.1]"
-            alt="about us"
-          />
-          <img
-            src="./about/about_us_2.jpg"
-            className="rounded-lg absolute w-1/3 top-[-5%] right-[-2%] shadow-md brightness-[1.1]"
-            alt="about us"
-          />
-          <img
-            src="./about/about_us_3.jpg"
-            className="rounded-lg absolute w-1/3 top-[55%] left-[50%] shadow-md brightness-[1.1]"
-            alt="about us"
-          />
-          <img
-            src="./about/about_us_5.png"
-            className="rounded-lg absolute w-1/3 top-[-2%] left-[-1%] shadow-md brightness-[1.1]"
-            alt="about us"
-          />
-        </div>
+        <AnimatedContent
+          distance={20}
+          direction="vertical"
+          reverse={false}
+          duration={1.1}
+          ease="power3.out"
+          initialOpacity={0.6}
+          animateOpacity
+          scale={1.0}
+          threshold={0.2}
+          delay={0.3}
+        >
+          <div
+            className="relative"
+            style={{
+              background: "url('./background/pattern2.png')",
+            }}>
+            <img
+              src="./about/about_us_1.jpg"
+              className="rounded-lg p-8"
+              alt="about us"
+            />
+            <img
+              src="./about/about_us_4.png"
+              className="rounded-lg absolute w-1/3 bottom-[-8%] left-[-4%] shadow-md brightness-[1.1] hover:scale-[1.02] duration-200"
+              alt="about us"
+            />
+            {/* <img
+              src="./about/about_us_2.jpg"
+              className="rounded-lg absolute w-1/3 top-[-5%] right-[-2%] shadow-md brightness-[1.1] hover:scale-[1.02] duration-200"
+              alt="about us"
+            />
+            <img
+              src="./about/about_us_3.jpg"
+              className="rounded-lg absolute w-1/3 bottom-0 right-0 shadow-md brightness-[1.1] hover:scale-[1.02] duration-200"
+              alt="about us"
+            /> */}
+            <img
+              src="./about/about_us_5.png"
+              className="rounded-lg absolute w-1/3 top-[-6%] right-[-2%] shadow-md brightness-[1.1] hover:scale-[1.02] duration-200"
+              alt="about us"
+            />
+          </div>
+        </AnimatedContent>
       </div>
     </section>
   )

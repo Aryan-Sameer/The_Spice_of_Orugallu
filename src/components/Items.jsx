@@ -1,6 +1,7 @@
 import { FaRegClock } from "react-icons/fa";
 import { menuItems } from "../utils/lib";
 import { Link } from "react-router-dom";
+import AnimatedContent from '../utils/AnimatedContent.jsx';
 
 const Items = () => {
 
@@ -22,22 +23,34 @@ const Items = () => {
       <h2 className="text-lg text-center font-bold tracking-widest py-2 text-[#e3b179] relative"> Menu Highlights</h2>
 
       <ul className="list grid grid-cols-1 lg:grid-cols-2 lg:w-3/4 md:w-[85%] rounded-box mx-auto py-6">
-
         {
           menuItems.map((item, index) => {
             return (
-              <li key={index} className="list-row max-sm:gap-2">
-                <div><img className="rounded-box w-24 lg:w-28 aspect-1/1 object-cover" src={item.image} alt="menu item" /></div>
-                <div>
-                  <span className="font-bold">{item.itemName}</span>
-                  <p className="list-col-wrap text-xs mt-2"> {item.description} </p>
-                </div>
-                <div> {item.price} </div>
-              </li>
+              <AnimatedContent
+                key={index}
+                distance={20}
+                direction="vertical"
+                reverse={false}
+                duration={1.1}
+                ease="power3.out"
+                initialOpacity={0.6}
+                animateOpacity
+                scale={1.0}
+                threshold={0.2}
+                delay={0.3}
+              >
+                <li className="list-row max-sm:gap-2">
+                  <div><img className="rounded-box w-24 lg:w-28 aspect-1/1 object-cover" src={item.image} alt="menu item" /></div>
+                  <div>
+                    <span className="font-bold">{item.itemName}</span>
+                    <p className="list-col-wrap text-xs mt-2"> {item.description} </p>
+                  </div>
+                  <div> {item.price} </div>
+                </li>
+              </AnimatedContent>
             )
           })
         }
-
       </ul>
 
       <div className="flex flex-col items-center mb-12 relative">

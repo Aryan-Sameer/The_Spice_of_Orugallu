@@ -2,6 +2,7 @@ import GalleryPreview from "./GalleryPreview"
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { reviewsUrl } from "../utils/lib";
 import { reviews } from "../utils/lib";
+import AnimatedContent from '../utils/AnimatedContent.jsx';
 
 const Reviews = () => {
 
@@ -35,9 +36,23 @@ const Reviews = () => {
           {
             reviews.map((review, index) => {
               return (
-                <p key={index} className="text-xl lg:text-2xl md:max-w-3/4 mx-auto font-serif p-6 py-4 backdrop-brightness-90 shadow-black">
-                  {review}
-                </p>
+                <AnimatedContent
+                  key={index}
+                  distance={20}
+                  direction="vertical"
+                  reverse={false}
+                  duration={1.1}
+                  ease="power3.out"
+                  initialOpacity={0.6}
+                  animateOpacity
+                  scale={1.0}
+                  threshold={0.2}
+                  delay={0.3}
+                >
+                  <p className="text-xl lg:text-2xl md:max-w-3/4 mx-auto font-serif p-6 py-4 backdrop-brightness-90 shadow-black">
+                    {review}
+                  </p>
+                </AnimatedContent>
               )
             })
           }
