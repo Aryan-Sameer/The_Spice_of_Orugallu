@@ -59,12 +59,24 @@ const Navbar = ({ navRef, scrolled }) => {
       </div>
 
       <div className="navbar-end">
-        <a target="_blank" href={reserveTableURl}>
+        <div className="dropdown dropdown-end">
           <button
             className="btn btn-outline max-sm:btn-sm hover:bg-[#e3b179] border-[#e3b179] shadow-none">
-            <span className="font-semibold tracking-wider">BOOK A TABLE</span>
+            <span className="font-semibold tracking-wider">ORDER ONLNE</span>
           </button>
-        </a>
+
+          <ul tabIndex="-1" className="dropdown-content menu bg-black rounded-box z-1 w-52 p-2 shadow-sm">
+            <li>
+              <a target="_blank" href="https://www.zomato.com/hyderabad/the-spice-of-orugallu-narapally/order">Zomato</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://magicpin.in/walletrecharge?merchantId=51891940&tabType=delivery&utm_source=reserve_google&utm_campaign=starter_integration&utm_medium=delivery&rwg_token=ACgRB3fTYExVthC--Mx2e3j3Z8Pnb2ogv8UUp1dGmS7DEqjXzMCkfmbzi7gTWO20jAsf8rj76qWdUiSFqsKphmZJD31CNm09Fg%3D%3D">Magicpin</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.swiggy.com/city/hyderabad/the-spice-of-orugallu-uppal-rest1014698?utm_source=GooglePlaceOrder&utm_campaign=GoogleMap&is_retargeting=true&media_source=GooglePlaceOrder">Swiggy</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   )

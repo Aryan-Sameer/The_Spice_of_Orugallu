@@ -9,11 +9,13 @@ const Items = () => {
       <img
         src="./background/veggies3.png"
         className="absolute top-0 pointer-events-none"
+        alt="bg-image"
       />
 
       <img
         src="./background/veggies4.png"
-        className="absolute bottom-0 right-0 opacity-70 pointer-events-none"
+        className="absolute bottom-0 right-0 pointer-events-none"
+        alt="bg-image"
       />
 
       <h1 className="text-4xl sm:text-5xl text-center font-bold pt-12 text-white font-serif relative">Delicious Menu</h1>
@@ -24,8 +26,8 @@ const Items = () => {
         {
           menuItems.map((item, index) => {
             return (
-              <li key={index} className="list-row ">
-                <div><img className="rounded-box" src={item.image} /></div>
+              <li key={index} className="list-row max-sm:gap-2">
+                <div><img className="rounded-box w-24 lg:w-28 aspect-1/1 object-cover" src={item.image} alt="menu item" /></div>
                 <div>
                   <span className="font-bold">{item.itemName}</span>
                   <p className="list-col-wrap text-xs mt-2"> {item.description} </p>

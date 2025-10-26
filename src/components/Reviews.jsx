@@ -6,14 +6,23 @@ import { reviews } from "../utils/lib";
 const Reviews = () => {
 
   return (
-    <section id="reviews" className="bg-[#161718] pb-8 relative">
-      <img src="./background/veggies4.png" className="absolute bottom-0 right-0 pointer-events-none" />
-      <img src="./background/veggies3.png" className="absolute bottom-0 pointer-events-none" />
+    <section id="reviews" className="bg-[#161718] lg:pb-8 relative max-lg:bg-[url(./background/pattern2.png)]">
+      <img
+        src="./background/veggies4.png"
+        className="hidden lg:block absolute bottom-0 right-0 pointer-events-none"
+        alt="bg-image"
+      />
+
+      <img
+        src="./background/veggies3.png"
+        className="hidden lg:block absolute bottom-0 pointer-events-none"
+        alt="bg-image"
+      />
 
       <div
-        className="hero min-h-screen items-start relative"
+        className="hero lg:min-h-screen items-start relative"
         style={{
-          backgroundImage: "url(./assets/ambience.jpg)",
+          backgroundImage: "url(./gallery/gallery_image_2.jpg)",
         }}
       >
         <div className="hero-overlay"></div>
@@ -26,7 +35,7 @@ const Reviews = () => {
           {
             reviews.map((review, index) => {
               return (
-                <p key={index} className="text-2xl md:max-w-3/4 mx-auto font-serif p-6 py-4 backdrop-brightness-90 shadow-black">
+                <p key={index} className="text-xl lg:text-2xl md:max-w-3/4 mx-auto font-serif p-6 py-4 backdrop-brightness-90 shadow-black">
                   {review}
                 </p>
               )
@@ -35,7 +44,7 @@ const Reviews = () => {
 
           <a target="_blank" href={reviewsUrl}>
             <button
-              className="btn btn-outline font-sans hover:bg-[#e4c590] border-[#e4c590] mt-4 shadow-none">
+              className="btn btn-outline font-sans hover:bg-[#e4c590] border-[#e4c590] mt-4 mb-8 shadow-none">
               <span className="font-semibold tracking-wider">View All Reviews</span>
             </button>
           </a>

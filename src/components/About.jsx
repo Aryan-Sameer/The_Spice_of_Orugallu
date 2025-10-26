@@ -6,11 +6,15 @@ const About = () => {
     <section id="About" className="hero bg-[#e3b179] min-h-screen relative">
       <img
         src="./background/veggies1.png"
-        className="absolute top-0 left-0 opacity-30 lg:opacity-40 pointer-events-none" />
+        className="absolute top-0 left-0 opacity-30 lg:opacity-40 pointer-events-none"
+        alt="bg-image"
+      />
 
       <img
         src="./background/veggies2.png"
-        className="absolute bottom-0 right-0 opacity-30 lg:opacity-40 pointer-events-none" />
+        className="absolute bottom-0 right-0 opacity-30 lg:opacity-40 pointer-events-none"
+        alt="bg-image"
+      />
 
       <div className="hero-content flex-col lg:flex-row gap-6">
         <div className="w-full text-center">
@@ -33,11 +37,32 @@ const About = () => {
         <div
           className="relative"
           style={{
-            background: "url('./background/pattern1.png')",
+            background: "url('./background/pattern2.png')",
           }}>
           <img
-            src="./assets/chicken biryani.jpg"
+            src="./about/about_us_1.jpg"
             className="rounded-lg p-8"
+            alt="about us"
+          />
+          <img
+            src="./about/about_us_4.png"
+            className="rounded-lg absolute w-1/3 bottom-[-8%] left-[-4%] shadow-md brightness-[1.1]"
+            alt="about us"
+          />
+          <img
+            src="./about/about_us_2.jpg"
+            className="rounded-lg absolute w-1/3 top-[-5%] right-[-2%] shadow-md brightness-[1.1]"
+            alt="about us"
+          />
+          <img
+            src="./about/about_us_3.jpg"
+            className="rounded-lg absolute w-1/3 top-[55%] left-[50%] shadow-md brightness-[1.1]"
+            alt="about us"
+          />
+          <img
+            src="./about/about_us_5.png"
+            className="rounded-lg absolute w-1/3 top-[-2%] left-[-1%] shadow-md brightness-[1.1]"
+            alt="about us"
           />
         </div>
       </div>

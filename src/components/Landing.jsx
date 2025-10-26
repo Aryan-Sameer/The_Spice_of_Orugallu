@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { reserveTableURl } from "../utils/lib";
 
 const Landing = () => {
     return (
@@ -21,10 +22,16 @@ const Landing = () => {
                     </p>
                     <Link to="/menu">
                         <button
-                            className="btn btn-outline font-sans hover:bg-[#e3b179] border-[#e3b179] shadow-none">
+                            className="btn btn-outline font-sans hover:bg-[#e3b179] border-[#e3b179] shadow-none mr-1">
                             <span className="font-semibold tracking-wider">View Full Menu</span>
                         </button>
                     </Link>
+                    <a target="_blank" href={reserveTableURl}>
+                        <button
+                            className="btn btn-outline font-sans hover:bg-[#e3b179] border-[#e3b179] shadow-none ml-1">
+                            <span className="font-semibold tracking-wider">BOOK A TABLE</span>
+                        </button>
+                    </a>
                 </div>
             </div>
         </section>

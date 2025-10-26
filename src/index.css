@@ -2,19 +2,11 @@
 @plugin "daisyui";
 
 
-::-webkit-scrollbar {
-  width: fit-content;
-}
-
-::-webkit-scrollbar-track {
-  background: #1a1a1a;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #e3b179;
-}
-
 * {
   scrollbar-width: thin;
   scrollbar-color: #e3b179 #1a1a1a;
+}
+
+.itemList {
+  scrollbar-width: none;
 }
