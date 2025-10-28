@@ -19,7 +19,7 @@ const Menu = () => {
             return (
               <ul key={index} className="carousel-item menu bg-base-200 rounded-box">
                 <li>
-                  <h2 className="menu-title text-black">{category.title}</h2>
+                  <h2 className="menu-title">{category.title}</h2>
                   <ul className="itemList max-h-80 overflow-y-auto">
                     {
                       category.items.map((item, idx) => {
