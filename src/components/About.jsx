@@ -4,7 +4,7 @@ import AnimatedContent from '../utils/AnimatedContent.jsx';
 
 const About = () => {
   return (
-    <section id="About" className="hero bg-[#e3b179] min-h-screen relative">
+    <section id="About" className="hero bg-[#e3b179] min-h-svh relative">
       <img
         src="./background/veggies1.png"
         className="absolute top-0 left-0 opacity-30 lg:opacity-40 pointer-events-none"
@@ -58,23 +58,13 @@ const About = () => {
               alt="about us"
             />
             <img
-              src="./about/about_us_4.png"
-              className="rounded-lg absolute w-1/3 bottom-[-8%] left-[-4%] shadow-md brightness-[1.1] hover:scale-[1.02] duration-200"
-              alt="about us"
-            />
-            {/* <img
-              src="./about/about_us_2.jpg"
-              className="rounded-lg absolute w-1/3 top-[-5%] right-[-2%] shadow-md brightness-[1.1] hover:scale-[1.02] duration-200"
+              src="./about/about_us_2.png"
+              className="rounded-lg absolute w-2/5 bottom-[-6%] left-[-2%] shadow-md brightness-[1.1] hover:scale-[0.99] duration-200"
               alt="about us"
             />
             <img
-              src="./about/about_us_3.jpg"
-              className="rounded-lg absolute w-1/3 bottom-0 right-0 shadow-md brightness-[1.1] hover:scale-[1.02] duration-200"
-              alt="about us"
-            /> */}
-            <img
-              src="./about/about_us_5.png"
-              className="rounded-lg absolute w-1/3 top-[-6%] right-[-2%] shadow-md brightness-[1.1] hover:scale-[1.02] duration-200"
+              src="./about/about_us_3.png"
+              className="rounded-lg absolute w-2/5 top-[-6%] right-[-2%] shadow-md brightness-[1.1] hover:scale-[1.02] duration-200"
               alt="about us"
             />
           </div>

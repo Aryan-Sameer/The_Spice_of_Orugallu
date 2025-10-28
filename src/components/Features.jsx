@@ -31,11 +31,20 @@ const Features = () => {
                     <h2 className="text-center text-lg font-semibold">{feature.title}</h2>
                     <p className="text-center sm:text-sm text-zinc-200">{feature.desc}</p>
                   </div>
+
                 </div>
               </AnimatedContent>
             )
           })
         }
+      </div>
+      <div className="text-center font-semibold text-shadow-amber-950">
+        <p>
+          Savor the rich spices of Telangana! The Spice of Orugallu Telugu Kitchen is bringing the essence of tradition straight to your plate.
+        </p>
+        <p>
+          From age-old recipes to the bold, aromatic spices of our land, every dish tells a story of heritage and flavor.
+        </p>
       </div>
     </section>
   )

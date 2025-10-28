@@ -9,7 +9,7 @@ export const menuItems = [
     {
         itemName: "Tandoori Leg Biryani",
         image: "./menuHighlights/leg_piece_bityani.jpg",
-        description: "A royal twist on the traditional biryani — featuring a perfectly marinated tandoori leg, slow-cooked with fragrant basmati rice and authentic Telangana spices.",
+        description: "A royal twist on the traditional biryani — featuring a perfectly marinated tandoori leg, slow-cooked with fragrant basmati rice and Telangana spices.",
         price: "599/-",
     },
     {
@@ -73,6 +73,19 @@ export const features = [
         title: "Legacy of Excellence",
         desc: "A timeless experience that goes beyond just dining."
     },
+]
+
+export const photoGallery = [
+    "./gallery/gallery_image_1.jpg",
+    "./gallery/gallery_image_2.jpg",
+    "./about/about_us_1.jpg",
+    "./gallery/gallery_image_3.jpg",
+    "./gallery/gallery_image_4.jpg",
+    "./gallery/gallery_image_5.jpg",
+    "./gallery/gallery_image_6.jpg",
+    "./about/about_us_3.png",
+    "./gallery/gallery_image_7.png",
+    "./gallery/gallery_image_8.png",
 ]
 
 export const reserveTableURl = "https://www.google.com/maps/reserve/v/dine/c/hrpaeSoPucI?source=pa&opi=89978449&hl=en-IN&gei=YzPxaMH2Abyhvr0P8ZfR-AE&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fgs_ssp%3DeJzj4tVP1zc0rLQsSjfNSzczYLRSNagwTkpOskwzMDCxTLQwt7QwtDKoSATyUs0sDAwsjC1NU1KTvERLMlIVigsyk1MV8tMU8otK0xNzckoBQ14W3A%26q%3Dthe%2Bspice%2Bof%2Borugallu%26rlz%3D1C1ONGR_enIN1108IN1108%26oq%3Dthe%2Bspice%2Bo%26pf%3Dop%26sourceid%3Dchrome%26ie%3DUTF-8&ihs=5"

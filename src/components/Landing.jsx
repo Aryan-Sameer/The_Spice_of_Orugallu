@@ -6,7 +6,7 @@ const Landing = () => {
     return (
         <section
             id="landingPage"
-            className="hero min-h-screen"
+            className="hero min-h-svh"
             style={{
                 backgroundImage:
                     "url(./assets/landingImage.png)",
@@ -21,7 +21,7 @@ const Landing = () => {
                         reverse={false}
                         duration={1.1}
                         ease="power3.out"
-                        initialOpacity={0.6}
+                        initialOpacity={0.4}
                         animateOpacity
                         scale={1.0}
                         threshold={0.2}
@@ -31,21 +31,35 @@ const Landing = () => {
                             Flavours Inspired By <br />Authentic Telugu Dishes
                         </h1>
                     </AnimatedContent>
-                    <p className="mb-5 text-xl font-sans">
-                        Restaurant • Catering • Takeaway
-                    </p>
-                    <Link to="/menu">
-                        <button
-                            className="btn btn-outline font-sans hover:bg-[#e3b179] border-[#e3b179] shadow-none mr-1">
-                            <span className="font-semibold tracking-wider">View Full Menu</span>
-                        </button>
-                    </Link>
-                    <a target="_blank" href={reserveTableURl}>
-                        <button
-                            className="btn btn-outline font-sans hover:bg-[#e3b179] border-[#e3b179] shadow-none ml-1">
-                            <span className="font-semibold tracking-wider">BOOK A TABLE</span>
-                        </button>
-                    </a>
+
+                    <AnimatedContent
+                        distance={30}
+                        direction="vertical"
+                        reverse={false}
+                        duration={1.1}
+                        ease="power3.out"
+                        initialOpacity={0.4}
+                        animateOpacity
+                        scale={1.0}
+                        threshold={0.2}
+                        delay={0.5}
+                    >
+                        <p className="mb-5 text-xl font-sans">
+                            Restaurant • Catering • Takeaway
+                        </p>
+                        <Link to="/menu">
+                            <button
+                                className="btn btn-outline font-sans hover:bg-[#e3b179] border-[#e3b179] shadow-none mr-1">
+                                <span className="font-semibold tracking-wider">View Full Menu</span>
+                            </button>
+                        </Link>
+                        <a target="_blank" href={reserveTableURl}>
+                            <button
+                                className="btn btn-outline font-sans hover:bg-[#e3b179] border-[#e3b179] shadow-none ml-1">
+                                <span className="font-semibold tracking-wider">BOOK A TABLE</span>
+                            </button>
+                        </a>
+                    </AnimatedContent>
                 </div>
             </div>
         </section>

@@ -222,7 +222,7 @@ export const menuCard = [
     },
 
     {
-        title: "NonVeg Main COurse",
+        title: "NonVeg Main Course",
         items: [
             {
                 name: "Rayalaseema Kodi Kura",
