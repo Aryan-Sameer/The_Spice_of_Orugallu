@@ -5,7 +5,7 @@ const GalleryPreview = () => {
 
   const btnClass = "absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-[#e3b179] hover:bg-transparent hover:text-[#e3b179] border border-[#e3b179] text-black font-semibold text-sm sm:tracking-wide shadow-none rounded-sm p-1 sm:p-2 cursor-pointer duration-200";
 
-  const gridLayourClass = "relative lg:bg-[#161718] grid grid-cols-[repeat(auto-fill,_minmax(150px,_1fr))] md:grid-cols-[repeat(auto-fill,_minmax(180px,_1fr))] lg:grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] gap-2 p-2 max-sm:pb-4 sm:p-6 sm:gap-6 lg:p-8 lg:gap-8 w-[95%] w-full lg:w-3/4 mx-auto lg:bg-[url(./background/pattern2.png)]"
+  const gridLayourClass = "relative lg:bg-[#161718] grid grid-cols-[repeat(auto-fill,_minmax(150px,_1fr))] md:grid-cols-[repeat(auto-fill,_minmax(180px,_1fr))] lg:grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] gap-2 p-2 max-sm:pb-4 sm:p-6 sm:gap-6 lg:p-8 lg:gap-8 w-[95%] w-full lg:w-3/4 mx-auto lg:bg-[url('./background/pattern2.png')]"
 
   return (
     <section
