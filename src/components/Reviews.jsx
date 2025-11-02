@@ -7,7 +7,7 @@ import AnimatedContent from '../utils/AnimatedContent.jsx';
 const Reviews = () => {
 
   return (
-    <section id="reviews" className="bg-[#161718] lg:pb-8 relative max-lg:bg-[url(./background/pattern2.png)]">
+    <section id="reviews" className="bg-[#161718] lg:pb-8 relative max-lg:bg-[url'background/pattern2.png')]">
       <img
         src="./background/veggies4.png"
         className="hidden lg:block absolute bottom-0 right-0 pointer-events-none"

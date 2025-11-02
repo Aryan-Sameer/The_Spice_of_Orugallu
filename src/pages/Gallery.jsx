@@ -11,7 +11,11 @@ const Gallery = () => {
   const gridLayourClass = "relative grid grid-cols-[repeat(auto-fill,_minmax(150px,_1fr))] md:grid-cols-[repeat(auto-fill,_minmax(200px,_1fr))] lg:grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))] gap-2 p-2 max-sm:pb-4 sm:p-6 sm:gap-6 lg:p-8 lg:gap-8ft"
 
   return (
-    <main className="bg-[#161718] bg-[url('./background/pattern2.png')] py-4">
+    <main 
+      className="bg-[#161718] py-4"
+      style={{ 
+        backgroundImage: "url('./background/pattern2.png')" 
+      }}>
 
       <Link to="/">
         <button
