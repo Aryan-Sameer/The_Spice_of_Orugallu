@@ -49,7 +49,7 @@ const Reviews = () => {
                   threshold={0.2}
                   delay={0.3}
                 >
-                  <p className="text-xl lg:text-2xl md:max-w-3/4 mx-auto font-serif p-6 py-4 backdrop-brightness-90 shadow-black">
+                  <p className="text-lg lg:text-2xl md:max-w-3/4 mx-auto font-serif p-6 py-4 backdrop-brightness-90 shadow-black">
                     {review}
                   </p>
                 </AnimatedContent>

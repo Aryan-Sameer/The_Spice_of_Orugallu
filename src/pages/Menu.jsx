@@ -5,7 +5,7 @@ import { FaAngleLeft } from "react-icons/fa";
 
 const Menu = () => {
   return (
-    <main className="bg-[#161718] bg-[url(./background/pattern2.png)]">
+    <main className="bg-[#161718] bg-[url(./background/pattern2.png)] flex-1">
       <Link to="/">
         <button
           className="btn btn-outline hover:bg-[#e3b179] border-[#e3b179] shadow-none text-[#e3b179] hover:text-black mx-4 mt-2">

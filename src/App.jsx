@@ -36,7 +36,7 @@ function App() {
     });
 
     return (
-        <main>
+        <main className='flex flex-col min-h-svh'>
             <RouterProvider router={router} />
             <Footer />
 
