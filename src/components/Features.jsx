@@ -23,7 +23,7 @@ const Features = () => {
           <h1 className="text-4xl sm:text-5xl text-center font-bold pt-2 font-serif relative text-amber-950">
             Catering Sevice
           </h1>
-          <p className="my-4 font-semibold text-center max-md:w-full max-lg:w-3/4 mx-auto">
+          <p className="my-4 font-semibold text-black text-center max-md:w-full max-lg:w-3/4 mx-auto">
             We offer a wide selection of freshly prepared dishes, customized menus, and flexible serving options for gatherings of any size. Whether it's a family celebration, corporate event, or special occasion, our team ensures timely service, delicious food, and a seamless experience from start to finish
           </p>
 
