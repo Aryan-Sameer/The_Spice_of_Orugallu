@@ -8,84 +8,84 @@ export const reviews = [
 export const menuItems = [
     {
         itemName: "Tandoori Leg Biryani",
-        image: "./menuHighlights/leg_piece_bityani.jpg",
+        image: "./menuHighlights/leg_piece_bityani.webp",
         description: "A royal twist on the traditional biryani — featuring a perfectly marinated tandoori leg, slow-cooked with fragrant basmati rice and Telangana spices.",
         price: "599/-",
     },
     {
         itemName: "Bellam Junnu",
-        image: "./menuHighlights/bellam_junnu.jpg",
+        image: "./menuHighlights/bellam_junnu.webp",
         description: "A timeless dessert of Telangana, made from colostrum milk and organic jaggery. Soft, caramelized, and comforting.",
         price: "159/-",
     },
     {
         itemName: "Chittimuthyalu Chicken Biryani",
-        image: "./menuHighlights/chitti_muthyala_biryani.jpg",
+        image: "./menuHighlights/chitti_muthyala_biryani.webp",
         description: "Authentic Telangana biryani made with chittimuthyalu rice and tender chicken — rich in aroma and flavor.",
         price: "379/-",
     },
     {
         itemName: "Apricot Delight",
-        image: "./menuHighlights/apricot_delight.jpg",
+        image: "./menuHighlights/apricot_delight.webp",
         description: "Hyderabadi dessert of stewed apricots and cream — silky, sweet, and indulgent.",
         price: "239/-",
     },
     {
         itemName: "Rajahmundry Rose Milk",
-        image: "./menuHighlights/rose_milk.jpg",
+        image: "./menuHighlights/rose_milk.webp",
         description: "Chilled rose-infused milk — A drink that soothes, refreshes, and delights.",
         price: "149/-",
     },
     {
         itemName: "Oreo Milkshake",
-        image: "./menuHighlights/oreo_milkshake.jpg",
+        image: "./menuHighlights/oreo_milkshake.webp",
         description: "Crushed Oreos blended with creamy ice cream — crunchy, smooth, and utterly indulgent.",
         price: "249/-",
     }
 ]
 
 export const galleryPreviewImages = [
-    "./gallery/gallery_image_1.jpg",
-    "./gallery/gallery_image_5.jpg",
-    "./gallery/gallery_image_3.jpg",
-    "./gallery/gallery_image_4.jpg",
-    "./gallery/gallery_image_2.jpg",
+    "./gallery/gallery_image_1.webp",
+    "./gallery/gallery_image_5.webp",
+    "./gallery/gallery_image_3.webp",
+    "./gallery/gallery_image_4.webp",
+    "./gallery/gallery_image_2.webp",
 ]
 
 export const features = [
     {
-        image: "./features/features-icon-1.png",
+        image: "./features/features-icon-1.webp",
         title: "Native Flavors",
         desc: "True regional taste — rooted in Telangana's rich culinary heritage."
     },
     {
-        image: "./features/features-icon-2.png",
+        image: "./features/features-icon-2.webp",
         title: "Elegant Fine Dining",
         desc: "Where tradition meets sophistication in every detail."
     },
     {
-        image: "./features/features-icon-3.png",
+        image: "./features/features-icon-3.webp",
         title: "Passion in Every Plate",
         desc: "Crafted with care, precision, and a love for flavor."
     },
     {
-        image: "./features/features-icon-4.png",
+        image: "./features/features-icon-4.webp",
         title: "Legacy of Excellence",
         desc: "A timeless experience that goes beyond just dining."
     },
 ]
 
 export const photoGallery = [
-    "./gallery/gallery_image_1.jpg",
-    "./gallery/gallery_image_2.jpg",
-    "./about/about_us_1.jpg",
-    "./gallery/gallery_image_3.jpg",
-    "./gallery/gallery_image_4.jpg",
-    "./gallery/gallery_image_5.jpg",
-    "./gallery/gallery_image_6.jpg",
-    "./about/about_us_3.png",
-    "./gallery/gallery_image_7.png",
-    "./gallery/gallery_image_8.png",
+    "./gallery/gallery_image_1.webp",
+    "./gallery/gallery_image_2.webp",
+    "./about/about_us_1.webp",
+    "./gallery/gallery_image_3.webp",
+    "./gallery/gallery_image_4.webp",
+    "./gallery/gallery_image_5.webp",
+    "./gallery/gallery_image_6.webp",
+    "./about/about_us_3.webp",
+    "./gallery/gallery_image_7.webp",
+    "./gallery/gallery_image_8.webp",
 ]
 
 export const reserveTableURl = "https://www.google.com/maps/reserve/v/dine/c/hrpaeSoPucI?source=pa&opi=89978449&hl=en-IN&gei=YzPxaMH2Abyhvr0P8ZfR-AE&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fgs_ssp%3DeJzj4tVP1zc0rLQsSjfNSzczYLRSNagwTkpOskwzMDCxTLQwt7QwtDKoSATyUs0sDAwsjC1NU1KTvERLMlIVigsyk1MV8tMU8otK0xNzckoBQ14W3A%26q%3Dthe%2Bspice%2Bof%2Borugallu%26rlz%3D1C1ONGR_enIN1108IN1108%26oq%3Dthe%2Bspice%2Bo%26pf%3Dop%26sourceid%3Dchrome%26ie%3DUTF-8&ihs=5"

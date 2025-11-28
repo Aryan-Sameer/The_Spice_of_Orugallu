@@ -34,7 +34,7 @@ const Navbar = ({ navRef, scrolled }) => {
           </ul>
         </div>
         <a href="/" className="w-[180px] brightness-[1.5]" >
-          <img src="./assets/orugallu logo.png" alt="logo" />
+          <img src="./assets/orugallu_logo.webp" alt="logo" />
         </a>
       </div>
 

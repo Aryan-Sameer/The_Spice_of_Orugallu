@@ -7,15 +7,15 @@ import AnimatedContent from '../utils/AnimatedContent.jsx';
 const Reviews = () => {
 
   return (
-    <section id="reviews" className="bg-[#161718] lg:pb-8 relative max-lg:bg-[url'background/pattern2.png')]">
+    <section id="reviews" className="bg-[#161718] lg:pb-8 relative max-lg:bg-[url'background/pattern2.webp')]">
       <img
-        src="./background/veggies4.png"
+        src="./background/veggies4.webp"
         className="hidden lg:block absolute bottom-0 right-0 pointer-events-none"
         alt="bg-image"
       />
 
       <img
-        src="./background/veggies3.png"
+        src="./background/veggies3.webp"
         className="hidden lg:block absolute bottom-0 pointer-events-none"
         alt="bg-image"
       />
@@ -23,7 +23,7 @@ const Reviews = () => {
       <div
         className="hero lg:min-h-screen items-start relative"
         style={{
-          backgroundImage: "url(./gallery/gallery_image_2.jpg)",
+          backgroundImage: "url(./gallery/gallery_image_2.webp)",
         }}
       >
         <div className="hero-overlay"></div>

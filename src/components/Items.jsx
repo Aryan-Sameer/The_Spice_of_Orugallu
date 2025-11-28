@@ -8,13 +8,13 @@ const Items = () => {
   return (
     <section id="menuItems" className="bg-[#161718] text-white relative overflow-hidden">
       <img
-        src="./background/veggies3.png"
+        src="./background/veggies3.webp"
         className="absolute top-0 pointer-events-none"
         alt="bg-image"
       />
 
       <img
-        src="./background/veggies4.png"
+        src="./background/veggies4.webp"
         className="absolute bottom-0 right-0 pointer-events-none"
         alt="bg-image"
       />
@@ -22,7 +22,7 @@ const Items = () => {
       <h1 className="text-4xl sm:text-5xl text-center font-bold pt-12 text-white font-serif relative">Delicious Menu</h1>
       <h2 className="text-lg text-center font-bold tracking-widest py-2 text-[#e3b179] relative"> Menu Highlights</h2>
 
-      <ul className="list grid grid-cols-1 lg:grid-cols-2 lg:w-3/4 md:w-[85%] rounded-box mx-auto py-6">
+      <div className="list grid grid-cols-1 lg:grid-cols-2 lg:w-3/4 md:w-[85%] rounded-box mx-auto py-6">
         {
           menuItems.map((item, index) => {
             return (
@@ -39,19 +39,19 @@ const Items = () => {
                 threshold={0.2}
                 delay={0.3}
               >
-                <li className="list-row max-sm:gap-2">
+                <div className="list-row max-sm:gap-2">
                   <div><img className="rounded-box w-24 lg:w-28 aspect-1/1 object-cover" src={item.image} alt="menu item" /></div>
                   <div>
                     <span className="font-bold">{item.itemName}</span>
                     <p className="list-col-wrap text-xs mt-2"> {item.description} </p>
                   </div>
                   <div> {item.price} </div>
-                </li>
+                </div>
               </AnimatedContent>
             )
           })
         }
-      </ul>
+      </div>
 
       <div className="flex flex-col items-center mb-12 relative">
         <p className="text-white flex items-center gap-2">

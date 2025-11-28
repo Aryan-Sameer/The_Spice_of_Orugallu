@@ -22,7 +22,7 @@ const Contact = () => {
         <div
           id="contact"
           style={{
-            backgroundImage: "url('./background/pattern1.png')",
+            backgroundImage: "url('./background/pattern1.webp')",
           }}
           className="grid grow text-white p-8">
 

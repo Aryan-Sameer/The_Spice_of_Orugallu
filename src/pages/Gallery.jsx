@@ -14,7 +14,7 @@ const Gallery = () => {
     <main
       className="bg-[#161718] py-4"
       style={{
-        backgroundImage: "url('./background/pattern2.png')"
+        backgroundImage: "url('./background/pattern2.webp')"
       }}>
 
       <Link to="/">
@@ -49,7 +49,7 @@ const Gallery = () => {
       <dialog id="my_modal_3" className="modal max-h-svh">
         <div className="modal-box p-3 w-11/12 max-w-5xl my-6 bg-[#161718]"
           style={{
-            backgroundImage: "url('./background/pattern2.png')"
+            backgroundImage: "url('./background/pattern2.webp')"
           }}>
           <form method="dialog">
             <button className="btn btn-sm btn-circle btn-white absolute right-0 top-0">✕</button>

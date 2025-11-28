@@ -9,7 +9,7 @@ const Landing = () => {
             className="hero min-h-svh"
             style={{
                 backgroundImage:
-                    "url(./assets/landingImage.png)",
+                    "url(./assets/landingImage.webp)",
             }}
         >
             <div className="hero-overlay"></div>

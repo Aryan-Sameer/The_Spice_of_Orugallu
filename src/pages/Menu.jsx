@@ -7,7 +7,7 @@ const Menu = () => {
   return (
     <main className="bg-[#161718] flex-1"
       style={{
-        backgroundImage: "url('./background/pattern2.png')"
+        backgroundImage: "url('./background/pattern2.webp')"
       }}>
       <Link to="/">
         <button
