@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import { Analytics } from "@vercel/analytics/next"
 
 import Home from "./pages/Home"
 import Footer from "./components/Footer"
@@ -38,7 +37,6 @@ function App() {
 
     return (
         <main className='flex flex-col min-h-svh'>
-            <Analytics />
             <RouterProvider router={router} />
             <Footer />
 
